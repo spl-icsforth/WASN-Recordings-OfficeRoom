@@ -1,0 +1,181 @@
+﻿
+<!DOCTYPE HTML>
+<!--
+	Arcana 2.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>   Microphone array recordings for localization in an office environment  </title>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-7" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet" />
+		
+		<link rel="stylesheet" href="css/tableStyle.css"/>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			
+		</noscript>
+		<style>
+			.image123{
+				float:left;
+			}4:25 μμ 21/12/2016
+			.imageContainer {
+  					  float: right
+			}
+			.imageCaption {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+
+			<div id="header-wrapper">
+				<header class="container" id="site-header">
+					<div class="row">
+						<div class="12u">
+							<div id="logo">
+<h4 style = "color:white;">					MICROPHONE ARRAY RECORDINGS FOR LOCALIZATION IN REAL-LIFE CONDITIONS </h4> <br>
+		   
+							</div>
+											</div>
+					</div>
+				</header>
+			</div>
+
+		<!-- Main -->
+		
+
+			<div id="main-wrapper" class="subpage">
+				<div class="container">
+					<div class="row">
+						<div class="12u skel-cell-important">
+					
+							<!-- Content -->
+
+								<article class="first last">
+							<!--	 <h3> TOWARDS WIRELESS ACOUSTIC SENSOR NETWORKS FOR LOCATION ESTIMATION AND COUNTING OF MULTIPLE SPEAKERS IN REAL-LIFE CONDITIONS </h3> -->
+
+
+
+
+<h3> General </h3> 
+<center> 
+
+<figure>
+<img src = "images/acoustic_scene.png" width="50%"> 
+  <figcaption>Fig. 1 - Recording setup, comprised of two uniform circular microphone arrays (A01 & A02) and two male speakers (M01 & M02) talking at a total of  6 different locations (numbered 1-6). </figcaption>
+</figure>
+</center>
+
+<br><br>			
+The dataset is comprised of real speech recordings, recorded at different locations inside a typical office room, by two 8-element uniform circular microphone arrays, which are placed near walls and at different locations. The recordings were made at 6 distinct locations in the room, which are shown in Fig. 1. <br> <br>
+
+The dimensions of the room are 6.33 x 4.2 meters and the reverberation time was approximately equal to 400 ms.  <br><br>
+The signals were recorded with a sampling frequency of  48 kHz. 
+The speakers were asked to stand in the predefined locations (1--6 in Fig. 1), with an orientation towards the center of the room, without any further advice on where to look at or how loud to speak. 
+
+The two arrays operated individually (i.e., they were connected to different host PCs). Across the arrays, corresponding recordings were synchornized by eye-inspection only; thus they are far from being perfectly syncrhonized which is the case in a realistic acoustic sensor networks where the nodes (microphone arrays) operate individually. 
+
+<br><br>
+
+The recorded signals are contained in <font face="Courier"> "Data.rar" </font>. Each .wav file represents the recording of an array, of a given speaker at a given location. For example, <font face="Courier"> M01_L1_A01.wav  </font> is the recording of speaker (M01) at array (A01) and location (L1). Each file contains 8 channels (one channel for each microphone of the array). The microphone locations are given in <font face="Courier"> mic_pos.mat </font>
+
+<br><br>
+<h3> Microphone arrays </h3>
+The microphone arrays were circular with 5 cm radius, comprised of 8 Shure SM95 omnidirectional microphones. <br>
+The first array (A01) was located at (2.68, 0.086, 1.20) meters and the second array (A02)  was located at (6.248, 2, 1.20) meters (these denote the coordinates of the arrays' centers). Both arrays were placed <strong style="font-weight:bold;" > very close to walls </strong>: A01 was placed
+at a distance of ε1= 0.086 meters and A02 was placed at a distance of ε2 = 0.086 meters from the corresponding nearest walls.  
+
+
+<div class="container">
+    <div style="float:left;width:49%">
+<center>        <img src="images/A01.jpg" width = "80%" > </center>
+   <p class ="imageCaption" >Fig. 2 - Microphone array A01 which was placed very close to the whiteboard</p> 
+    </div>
+    <div style="float:right;width:49%">
+      <center>   <img src="images/A02.jpg"  width = "80%"> </center>
+   <p class ="imageCaption" >Fig. 3 - Microphone array A02 which was placed very close to the wall </p> 
+    </div>
+</div>
+<br> <br>
+
+<h3> Data </h3>
+In detail, the coordinates of each location, as well as the speaker ID who was recorded at that location, are shown in the table below:
+<br><br>
+<center>
+<table>  <thead>  
+<tr>  
+	   <th>Location</th>     
+	   <th>Coordinates</th>   
+	   <th>Speaker</th>      
+
+ </tr>  </thead> 
+ <tbody>    <tr>
+	     <td>Location 1</td> 
+	     <td> ( 1.11, 1.33 ) </td>
+	     <td> M01 </td>  
+	
+  </tr>
+   <tr> 
+	     <td>Location 2</td> 
+	     <td> ( 4.17,  1.32 ) </td>
+	     <td> M01 </td>  
+
+  </tr>    
+ <tr>
+	     <td>Location 3 </td> 
+	     <td> ( 3.60, 2.01 ) </td>
+	     <td> M01 </td>  
+
+    <tr> 
+	     <td>Location 4</td> 
+	     <td> ( 2.90, 2.43 ) </td>
+	     <td> M02 </td>  
+
+
+ </tr>  
+    <tr> 
+	     <td>Location 5</td> 
+	     <td> ( 3.47, 1.19 ) </td>
+	     <td> M02 </td>  
+
+
+  </tr>
+    <tr> 
+	     <td>Location 6</td> 
+	     <td> ( 4.32, 2.90 ) </td>
+	     <td> M02 </td>  
+	     
+
+  </tr>
+</tbody>
+</table>
+</center>
+<h3> License </h3> 
+<strong style="font-weight:bold;" > Use of this dataset must be acknowledged by referencing the following publications: </strong> <br>Anastasios Alexandridis, Nikolaos Stefanakis, Athanasios Mouchtaris, <i> "Towards wireless acoustic sensor networks for location estimation and counting of multiple speakers in real-life conditions," </i> IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017. 
+<br> <br>
+
+<h3> Contact </h3>
+
+For more information, questions, or comments please contact <a href="mailto:analexan@ics.forth.gr"> analexan@ics.forth.gr </a>
+</article>
+
+</div>
+					</div>
+				</div>
+			</div>
+
+			</body>
+</html>
